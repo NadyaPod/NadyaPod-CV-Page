@@ -73,7 +73,7 @@ body {
   
 	pointer-events: none;
   z-index: 5;
-	transition: 0.1s;
+	transition: 0.05s;
 	transform: translate(-50%, -50%);
 }
 
@@ -347,6 +347,18 @@ h1 {
 }
 
 @media (max-width: 968px) {
+	body {
+		cursor: auto;
+	}
+
+	.cursor {
+		display: none;
+	}
+
+	.link {
+		cursor: pointer;
+	}
+
 	.left-side {
 		display: flex;
 		flex-direction: column;
@@ -417,7 +429,7 @@ h1 {
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	justify-items: center;
-	gap: 30px;
+	gap: 40px;
 
 	margin: 20px auto;
 }
@@ -425,11 +437,11 @@ h1 {
 .card {
 	position: relative;
 	width: 100%;
-	height: 350px;
+	height: 300px;
 
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% top;
+	background-position: 50% center;
 
 	transition: all 0.5s ease;
 }
@@ -455,19 +467,20 @@ h1 {
 }
 
 .item-1 {
-	background-image: url(./images/portfolio-color.png);
+	background-image: url(./images/portfolio.png);
 }
 
 .item-2 {
-	background-image: url(./images/tic-tac-toe-color.png);
+	background-image: url(./images/tic-tac-toe.png);
 }
 
 .item-3 {
-	background-image: url(./images/tic-tac-toe-color.png);
+	background-image: url(./images/tic-tac-toe.png);
 }
 
 .item-4 {
-	background-image: url(./images/random-quotes-color.png);
+	background-image: url(./images/random-quotes.png);
+	
 }
 
 .description {
