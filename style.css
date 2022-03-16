@@ -484,7 +484,10 @@ h1 {
 
 .item-4 {
 	background-image: url(./images/random-quotes.png);
-	
+}
+
+.item-5 {
+	background-image: url(./images/cognitive-biases.png);
 }
 
 .description {
@@ -665,6 +668,10 @@ a {
 		justify-content: flex-end;
 		margin-right: 100px;
 	}
+}
+
+.dark-theme .link {
+	color: #fff;
 }
 
 
